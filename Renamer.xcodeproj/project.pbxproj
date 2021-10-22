@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		790BAD1327215C1600827950 /* parse.py in Resources */ = {isa = PBXBuildFile; fileRef = 790BAD1127215C1600827950 /* parse.py */; };
+		790BAD1427215C1600827950 /* ccl_bplist.py in Resources */ = {isa = PBXBuildFile; fileRef = 790BAD1227215C1600827950 /* ccl_bplist.py */; };
+		790BAD172721615300827950 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 790BAD162721615300827950 /* PythonKit */; };
+		79F352AC2721436F00D1E523 /* RenamerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F352AB2721436F00D1E523 /* RenamerApp.swift */; };
+		79F352AE2721436F00D1E523 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F352AD2721436F00D1E523 /* ContentView.swift */; };
+		79F352B02721437200D1E523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F352AF2721437200D1E523 /* Assets.xcassets */; };
+		79F352B32721437200D1E523 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F352B22721437200D1E523 /* Preview Assets.xcassets */; };
+		79F352C0272148B700D1E523 /* xattr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F352BF272148B700D1E523 /* xattr.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		790BAD1127215C1600827950 /* parse.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = parse.py; sourceTree = "<group>"; };
+		790BAD1227215C1600827950 /* ccl_bplist.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = ccl_bplist.py; sourceTree = "<group>"; };
+		79F352A82721436F00D1E523 /* Renamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Renamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F352AB2721436F00D1E523 /* RenamerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenamerApp.swift; sourceTree = "<group>"; };
+		79F352AD2721436F00D1E523 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79F352AF2721437200D1E523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79F352B22721437200D1E523 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79F352B42721437200D1E523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F352B52721437200D1E523 /* Renamer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Renamer.entitlements; sourceTree = "<group>"; };
+		79F352BB272148A400D1E523 /* Renamer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Renamer-Bridging-Header.h"; sourceTree = "<group>"; };
+		79F352BF272148B700D1E523 /* xattr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xattr.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79F352A52721436F00D1E523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790BAD172721615300827950 /* PythonKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79F3529F2721436F00D1E523 = {
+			isa = PBXGroup;
+			children = (
+				79F352AA2721436F00D1E523 /* Renamer */,
+				79F352A92721436F00D1E523 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79F352A92721436F00D1E523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79F352A82721436F00D1E523 /* Renamer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79F352AA2721436F00D1E523 /* Renamer */ = {
+			isa = PBXGroup;
+			children = (
+				79F352AB2721436F00D1E523 /* RenamerApp.swift */,
+				79F352AD2721436F00D1E523 /* ContentView.swift */,
+				79F352BF272148B700D1E523 /* xattr.swift */,
+				79F352AF2721437200D1E523 /* Assets.xcassets */,
+				790BAD1227215C1600827950 /* ccl_bplist.py */,
+				790BAD1127215C1600827950 /* parse.py */,
+				79F352B42721437200D1E523 /* Info.plist */,
+				79F352B52721437200D1E523 /* Renamer.entitlements */,
+				79F352B12721437200D1E523 /* Preview Content */,
+				79F352BB272148A400D1E523 /* Renamer-Bridging-Header.h */,
+			);
+			path = Renamer;
+			sourceTree = "<group>";
+		};
+		79F352B12721437200D1E523 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				79F352B22721437200D1E523 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79F352A72721436F00D1E523 /* Renamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F352B82721437200D1E523 /* Build configuration list for PBXNativeTarget "Renamer" */;
+			buildPhases = (
+				79F352A42721436F00D1E523 /* Sources */,
+				79F352A52721436F00D1E523 /* Frameworks */,
+				79F352A62721436F00D1E523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Renamer;
+			packageProductDependencies = (
+				790BAD162721615300827950 /* PythonKit */,
+			);
+			productName = Renamer;
+			productReference = 79F352A82721436F00D1E523 /* Renamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79F352A02721436F00D1E523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					79F352A72721436F00D1E523 = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 79F352A32721436F00D1E523 /* Build configuration list for PBXProject "Renamer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79F3529F2721436F00D1E523;
+			packageReferences = (
+				790BAD152721615300827950 /* XCRemoteSwiftPackageReference "PythonKit" */,
+			);
+			productRefGroup = 79F352A92721436F00D1E523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79F352A72721436F00D1E523 /* Renamer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79F352A62721436F00D1E523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F352B32721437200D1E523 /* Preview Assets.xcassets in Resources */,
+				79F352B02721437200D1E523 /* Assets.xcassets in Resources */,
+				790BAD1327215C1600827950 /* parse.py in Resources */,
+				790BAD1427215C1600827950 /* ccl_bplist.py in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79F352A42721436F00D1E523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F352C0272148B700D1E523 /* xattr.swift in Sources */,
+				79F352AE2721436F00D1E523 /* ContentView.swift in Sources */,
+				79F352AC2721436F00D1E523 /* RenamerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		79F352B62721437200D1E523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79F352B72721437200D1E523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		79F352B92721437200D1E523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Renamer/Renamer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Renamer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Renamer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.Renamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Renamer/Renamer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		79F352BA2721437200D1E523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Renamer/Renamer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Renamer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Renamer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.Renamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Renamer/Renamer-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79F352A32721436F00D1E523 /* Build configuration list for PBXProject "Renamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F352B62721437200D1E523 /* Debug */,
+				79F352B72721437200D1E523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79F352B82721437200D1E523 /* Build configuration list for PBXNativeTarget "Renamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F352B92721437200D1E523 /* Debug */,
+				79F352BA2721437200D1E523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		790BAD152721615300827950 /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		790BAD162721615300827950 /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 790BAD152721615300827950 /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 79F352A02721436F00D1E523 /* Project object */;
+}
